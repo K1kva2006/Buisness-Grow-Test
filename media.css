@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+    .container {
+        flex-direction:column-reverse;
+        padding: 40px 0;
+    }
+    .left-block {
+        text-align: center;
+    }
+    .left-block > p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .left-block-cont {
+        flex-direction: column;
+    }
+    .left-block-cont > h3 {
+        margin: 25px 35px;
+        font-size: 35px;
+    }
+}
+@media (max-width: 580px) {
+    .right-block {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .right-block > img {
+        width: 80%;
+    }
+    .left-block > h2 {
+        font-size: 32px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .left-block-cont > h3 {
+        font-size: 25px;
+    }
+}
